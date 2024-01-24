@@ -1,0 +1,171 @@
+body{
+    background-color: black;
+    margin: 0;
+    margin-bottom: 1000px;
+}
+
+.mode-specifier{
+    margin-left: 1450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* First Column - My Pic*/
+
+.heropage{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+.my-pic-container{
+    background-color:black;
+    padding: 80px 50px 20px 50px;
+}
+
+.my-pic-container-1{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    border-radius: 45px;
+}
+
+
+/* second - About me*/
+
+.about-me{
+    background-color: black;
+}
+
+
+
+.about-me-1{
+    text-align:center;
+    width: 700px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.about-me-1 h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: aqua;
+}
+
+.about-me-1 h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: hsl(0, 0%, 44%);
+}
+
+.about-me-1 p{
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28PX;
+    font-weight: bold;
+    color: rgb(231, 231, 231);
+    text-align: left;
+}
+
+.more-info{
+    border: 1px solid aqua;
+    display: inline-block;
+    border-radius: 30px 30px 30px 30px;
+    padding: 8px 60px 8px 12px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.more-info p{
+    display: inline-block;
+    font-size: 26PX;
+    margin: 0;
+}
+
+.about-me-icon{
+    position:absolute;
+    top: 0;
+    right: -11px;
+}
+
+
+.about-me-button{
+    background-color: #6f6f6f;
+    border-radius: 50%;
+}
+
+.arrow-img{
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+/* Mob view */
+
+@media only screen and (max-width:600px){
+
+    body{
+        background-color: yellow;
+    }
+
+
+    .heropage{
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+
+    .my-pic-container{
+        background-color: red;
+        padding: 30px 5px 10px 5px;
+    }
+
+    .my-pic-container-1{
+        height: 100%;
+        width: 100%;
+        background-color: green;
+        border-radius: 45px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .about-me{
+        width:100%;
+        padding-bottom: 70px;
+    }
+
+    .mode-specifier{
+        margin-left: 460px;
+        margin-top: 10px;
+    }
+
+    .about-me-1{
+        width: 400px;   
+        margin-top: 50px;
+        margin-left: 65px;
+    }
+
+    .about-me-1 p{
+        margin-top: 50px;
+    }
+    
+
+    .more-info{
+        margin-top: 30px;
+    }
+
+    .more-info p{
+        margin: 0;
+    }
+
+    .arrow-img{
+        height: 22px;
+        margin-top: 2px;
+        margin-left: 2px;
+    }  
+}
+
+
+
+
